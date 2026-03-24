@@ -1,0 +1,91 @@
+% =======================
+% Set 1:
+% =======================
+\[
+\boxed{
+\begin{aligned}
+\vec{r}(t) &= 
+\begin{pmatrix}
+r \cos(\omega_\text{spin} t) \\
+r \sin(\omega_\text{spin} t) \\
+c t
+\end{pmatrix}, \quad
+\theta(t) = \omega_\text{spin} t \\
+\phi(t) &= k c t + m \omega_\text{spin} t, \quad
+k = \frac{2\pi}{\lambda}, \quad m \in \mathbb{Z} \\
+\lambda &= \frac{2\pi c}{\omega_\text{spin}} \\
+\vec{E}(t) &= E_0 \left( \hat{x} \cos \phi(t) + \hat{y} \sin \phi(t) \right) \\
+\vec{B}(t) &= \frac{1}{c} (\hat{z} \times \vec{E}(t)) \\
+p_\text{helix} &= \frac{\hbar m}{r}, \quad
+p_\text{axial} = \hbar k \\
+|\vec{p}_\text{total}|^2 &= p_\text{axial}^2 + p_\text{helix}^2, \quad
+E = |\vec{p}_\text{total}| c
+\end{aligned}
+}
+\]
+
+% =======================
+% Set 2:
+% =======================
+\[
+\boxed{
+\begin{aligned}
+\vec{r}(t) &= 
+\begin{pmatrix}
+r \cos(\omega_\text{spin} t) \\
+r \sin(\omega_\text{spin} t) \\
+v_\text{axial} t
+\end{pmatrix}, \quad
+\vec{v}(t) = \frac{d\vec{r}}{dt} = 
+\begin{pmatrix}
+- r \omega_\text{spin} \sin(\omega_\text{spin} t) \\
+r \omega_\text{spin} \cos(\omega_\text{spin} t) \\
+v_\text{axial}
+\end{pmatrix}, \quad
+\vec{p}(t) = m_e \vec{v}(t) \\
+\phi(t) &= k v_\text{axial} t + m \omega_\text{spin} t, \quad
+k = \frac{2\pi}{\lambda} \\
+\lambda &= \frac{2\pi v_\text{axial}}{\omega_\text{spin}} \\
+P_\text{geçiş}(t) &= \cos^2 \phi(t) \\
+\vec{E}(t) &= E_0 (\hat{x} \cos \phi(t) + \hat{y} \sin \phi(t)), \quad
+\vec{B}(t) = \frac{1}{c} (\hat{z} \times \vec{E}(t)) \\
+\psi_\text{in}(x,y) &= A(x,y) e^{i m \theta(x,y)} \\
+\psi_\text{out}(x,y) &= \psi_\text{in} \cdot T(x,y) \cdot e^{i \Delta\theta(x)} \\
+\Psi(k_x,k_y) &= \mathcal{F}\{\psi_\text{out}\}, \quad
+I(k_x,k_y) = |\Psi(k_x,k_y)|^2
+\end{aligned}
+}
+\]
+
+% =======================
+% Set 3:
+% =======================
+\[
+\boxed{
+\begin{aligned}
+\vec{r}(t) &=
+\begin{pmatrix}
+r \cos(\omega_\text{spin} t) \\
+r \sin(\omega_\text{spin} t) \\
+v_\text{axial} t
+\end{pmatrix}, \quad
+\theta(t) = \omega_\text{spin} t \\
+\phi(t) &= k v_\text{axial} t + m \omega_\text{spin} t, \quad
+k = \frac{2\pi}{\lambda} \\
+\lambda &= \frac{2\pi v_\text{axial}}{\omega_\text{spin}} \\
+\vec{E}(t) &= E_0 \big(\hat{x} \cos \phi(t) + \hat{y} \sin \phi(t) \big), \quad
+\vec{B}(t) = \frac{1}{c} (\hat{z} \times \vec{E}(t)) \\
+p_\text{helix} &= \frac{\hbar m}{r}, \quad
+p_\text{axial} = \hbar k, \quad
+|\vec{p}_\text{total}|^2 = p_\text{axial}^2 + p_\text{helix}^2, \quad
+E = |\vec{p}_\text{total}| v_\text{axial} \\
+\vec{v}(t) &= 
+\begin{pmatrix}
+- r \omega_\text{spin} \sin(\omega_\text{spin} t) \\
+r \omega_\text{spin} \cos(\omega_\text{spin} t) \\
+v_\text{axial}
+\end{pmatrix}, \quad
+\vec{p}(t) = m_e \vec{v}(t)
+\end{aligned}
+}
+\]
