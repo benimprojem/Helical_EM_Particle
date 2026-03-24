@@ -2,8 +2,6 @@
 **Bir fikir üzerine yz ile tartışmanın sonucu. Kaç kişi katılır acaba!
 **Ben sadece aklımdakileri anlattım yz de bunları formüle döktü.
 
-
-
 | | Formüller |
 | :--- | :--- |
 | **1** | $$\vec{r}(t) = \begin{pmatrix} r \cos(\omega_\text{spin} t) \\ r \sin(\omega_\text{spin} t) \\ v_\text{axial} t \end{pmatrix}, \quad \theta(t) = \omega_\text{spin} t$$ |
@@ -14,3 +12,13 @@
 | **6** | $$\vec{v}(t) = \begin{pmatrix} - r \omega_\text{spin} \sin(\omega_\text{spin} t) \\ r \omega_\text{spin} \cos(\omega_\text{spin} t) \\ v_\text{axial} \end{pmatrix}, \quad \vec{p}(t) = m_e \vec{v}(t)$$ |
 
 ---
+
+## License
+
+This repository uses a dual-licensing approach:
+
+- Code, formulas, and LaTeX implementations are licensed under the MIT License.
+- Conceptual model, theoretical description, and documentation are licensed under
+  Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+You are free to use, modify, and distribute this work, provided proper attribution is given where applicable.
