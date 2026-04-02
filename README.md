@@ -23,18 +23,18 @@ Parçacığın helis yolu üzerindeki toplam katettiği yol ve ivmelenme karakte
 
 **Toplam Sürat (Scalar Speed)**  $v_{\text{total}} = \sqrt{(r \omega_{\text{spin}})^2 + v_{\text{axial}}^2}$ 
 
-**Merkezcil İvme**  $\vec{a}(t) = \begin{pmatrix} -r \omega_{\text{spin}}^2 \cos(\omega_{\text{spin}} t) \\ -r \omega_{\text{spin}}^2 \sin(\omega_{\text{spin}} t) \\ 0 \end{pmatrix}$ 
+**Merkezcil İvme**  $$\vec{a}(t) = \begin{pmatrix} -r \omega_{\text{spin}}^2 \cos(\omega_{\text{spin}} t) \\ -r \omega_{\text{spin}}^2 \sin(\omega_{\text{spin}} t) \\ 0 \end{pmatrix}$$ 
 
 **Helis Hatve Açısı (Pitch Angle)** | $\psi = \arctan\left(\frac{v_{\text{axial}}}{r \omega_{\text{spin}}}\right)$ 
 
 ### 2. Elektrodinamik Özellikler
 $\vec{E}$ ve $\vec{B}$ alanlarının zamanla değişiminden kaynaklanan enerji akışı ve yoğunluğu:
 
-| Özellik | Formül |
-| :--- | :--- |
-| **Poynting Vektörü (Enerji Akışı)** | $\vec{S}(t) = \frac{1}{\mu_0} (\vec{E} \times \vec{B})$ |
-| **Elektromanyetik Enerji Yoğunluğu** | $u_{em} = \frac{1}{2} \left( \epsilon_0 |\vec{E}|^2 + \frac{1}{\mu_0} |\vec{B}|^2 \right)$ |
-| **Işıma Gücü (Larmor Formülü)** | $P = \frac{q^2 |\vec{a}|^2}{6\pi \epsilon_0 c^3}$ |
+| Özellik      Formül 
+
+| **Poynting Vektörü (Enerji Akışı)**  $$\vec{S}(t) = \frac{1}{\mu_0} (\vec{E} \times \vec{B})$$ 
+| **Elektromanyetik Enerji Yoğunluğu**  $$u_{em} = \frac{1}{2} \left( \epsilon_0 |\vec{E}|^2 + \frac{1}{\mu_0} |\vec{B}|^2 \right)$$ 
+| **Işıma Gücü (Larmor Formülü)**  $$P = \frac{q^2 |\vec{a}|^2}{6\pi \epsilon_0 c^3}$$ 
 
 ### 3. Kuantum ve Spin Dinamiği
 $m$ (topolojik yük/mod) ve spin frekansı arasındaki ilişkiden doğan ek özellikler:
