@@ -21,30 +21,41 @@ $$\vec{v}(t) = \begin{pmatrix} - r \omega_\text{spin} \sin(\omega_\text{spin} t)
 Parçacığın helis yolu üzerindeki toplam katettiği yol ve ivmelenme karakteristikleri:
 
 
-**Toplam Sürat (Scalar Speed)**  $v_{\text{total}} = \sqrt{(r \omega_{\text{spin}})^2 + v_{\text{axial}}^2}$ 
+**Toplam Sürat (Scalar Speed)**  
+$v_{\text{total}} = \sqrt{(r \omega_{\text{spin}})^2 + v_{\text{axial}}^2}$ 
 
-**Merkezcil İvme**  $$\vec{a}(t) = \begin{pmatrix} -r \omega_{\text{spin}}^2 \cos(\omega_{\text{spin}} t) \\ -r \omega_{\text{spin}}^2 \sin(\omega_{\text{spin}} t) \\ 0 \end{pmatrix}$$ 
+**Merkezcil İvme**  
+$$\vec{a}(t) = \begin{pmatrix} -r \omega_{\text{spin}}^2 \cos(\omega_{\text{spin}} t) \\ -r \omega_{\text{spin}}^2 \sin(\omega_{\text{spin}} t) \\ 0 \end{pmatrix}$$ 
 
-**Helis Hatve Açısı (Pitch Angle)** | $\psi = \arctan\left(\frac{v_{\text{axial}}}{r \omega_{\text{spin}}}\right)$ 
+**Helis Hatve Açısı (Pitch Angle)** 
+$$\psi = \arctan\left(\frac{v_{\text{axial}}}{r \omega_{\text{spin}}}\right)$$
 
 ### 2. Elektrodinamik Özellikler
 $\vec{E}$ ve $\vec{B}$ alanlarının zamanla değişiminden kaynaklanan enerji akışı ve yoğunluğu:
 
 | Özellik      Formül 
 
-| **Poynting Vektörü (Enerji Akışı)**  $$\vec{S}(t) = \frac{1}{\mu_0} (\vec{E} \times \vec{B})$$ 
-| **Elektromanyetik Enerji Yoğunluğu**  $$u_{em} = \frac{1}{2} \left( \epsilon_0 |\vec{E}|^2 + \frac{1}{\mu_0} |\vec{B}|^2 \right)$$ 
-| **Işıma Gücü (Larmor Formülü)**  $$P = \frac{q^2 |\vec{a}|^2}{6\pi \epsilon_0 c^3}$$ 
+**Poynting Vektörü (Enerji Akışı)**  
+$$\vec{S}(t) = \frac{1}{\mu_0} (\vec{E} \times \vec{B})$$ 
+
+**Elektromanyetik Enerji Yoğunluğu**  
+$$u_{em} = \frac{1}{2} \left( \epsilon_0 |\vec{E}|^2 + \frac{1}{\mu_0} |\vec{B}|^2 \right)$$ 
+
+**Işıma Gücü (Larmor Formülü)**  
+$$P = \frac{q^2 |\vec{a}|^2}{6\pi \epsilon_0 c^3}$$ 
 
 ### 3. Kuantum ve Spin Dinamiği
 $m$ (topolojik yük/mod) ve spin frekansı arasındaki ilişkiden doğan ek özellikler:
 
 
-**Açısal Momentum (Z-ekseni)**  $L_z = r p_{\text{helix}} = \hbar m$ 
+**Açısal Momentum (Z-ekseni)**  
+$L_z = r p_{\text{helix}} = \hbar m$ 
 
-**De Broglie Eşdeğerliği**  $f_{\text{compton}} = \frac{E}{h} = \frac{|\vec{p}_{\text{total}}| v_{\text{axial}}}{2\pi \hbar}$ 
+**De Broglie Eşdeğerliği**  
+$$f_{\text{compton}} = \frac{E}{h} = \frac{|\vec{p}_{\text{total}}| v_{\text{axial}}}{2\pi \hbar}$$
 
-**Efektif Kütle Değişimi**  $m_{\text{eff}} = \frac{|\vec{p}_{\text{total}}|}{v_{\text{total}}}$ 
+**Efektif Kütle Değişimi**  
+$$m_{\text{eff}} = \frac{|\vec{p}_{\text{total}}|}{v_{\text{total}}}$$ 
 
 ---
 
