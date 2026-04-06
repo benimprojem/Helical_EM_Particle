@@ -125,12 +125,12 @@ I(k_x, k_y) = |\Psi(k_x, k_y)|^2
 
 ### 8. **Lorentz Kuvveti (Parçacığın EM Alan ile Etkileşimi)**
 
-[
+$$[
 \vec{F} = q \left( \vec{E} + \vec{v} \times \vec{B} \right)
-]
+]$$
 
-* (q) : parçacığın yükü
-* (\vec{v}) : parçacığın anlık hızı
+* $$(q)$$ : parçacığın yükü
+* $$(\vec{v})$$ : parçacığın anlık hızı
 
 Parçacığın ivmesi:
 
@@ -158,7 +158,7 @@ $$[
 |x(t)| < \frac{d}{2}
 ]$$
 
-* (d) : yarık genişliği
+* $$(d)$$ : yarık genişliği
 
 ---
 
@@ -167,11 +167,13 @@ $$[
 ### 1️⃣ Fiziksel Temel
 
 * Parçacık **heliks hareketi** yapıyor:
-  $$[
+
+$$[
   \vec{r}(t) = \begin{pmatrix} r \cos(\omega_\text{spin} t) \ r \sin(\omega_\text{spin} t) \ v_\text{axial} t \end{pmatrix}
   ]$$
 
 * Faz:
+
  $$[
   \phi(t) = k v_\text{axial} t + m \omega_\text{spin} t
   ]$$
@@ -202,9 +204,7 @@ $$[
    ]$$
 
 2. **EM alan etkisi** (basitleştirilmiş model, kenara yakın parçacıklar daha az katkı verir veya fazı bozulur):
-   $$[
-   f_\text{EM}(\theta) = 1 - \alpha \cdot \exp\Big[-\beta \big(\cos\theta/(d/2)\big)^2\Big]
-   ]$$
+   $$[\f_\text{EM}(\theta) = 1 - \alpha \cdot \exp\Big[-\beta \big(\cos\theta/(d/2)\big)^2\Big]]$$
 
 * $$(\alpha)$$ : maksimum saptırma katsayısı
 * $$(\beta)$$ : saptırmanın ne kadar keskin olduğunu kontrol eder
