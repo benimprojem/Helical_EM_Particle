@@ -39,8 +39,7 @@ v_\text{axial} t
 $$[
 \vec{v}(t) = \frac{d\vec{r}}{dt} =
 \begin{pmatrix}
-
-* r \omega_\text{spin} \sin(\omega_\text{spin} t + \phi_0) \
+\* r \omega_\text{spin} \sin(\omega_\text{spin} t + \phi_0) \
   r \omega_\text{spin} \cos(\omega_\text{spin} t + \phi_0) \
   v_\text{axial}
   \end{pmatrix}
