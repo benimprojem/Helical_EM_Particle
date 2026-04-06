@@ -185,9 +185,11 @@ $$[
   * Bu bozulma heliks fazını değiştirir → kırınım deseninde merkeze doğru sıfırlama veya “çatal / kasık” form oluşur
 
 * Görselleştirmek için, **yarık fonksiyonuna EM alan etkisini ekleyeceğiz**:
+  
   $$[
   T(\theta) \to T(\theta) \cdot f_\text{EM}(\theta)
   ]$$
+  
   Burada $$(f_\text{EM}(\theta))$$ parçacığın konumuna göre saptırma katsayısı (kenara yakınsa azalır veya faz kayması verir).
 
 ---
@@ -195,6 +197,7 @@ $$[
 ### 2️⃣ Matematiksel Modelleme
 
 1. **Yarıktan geçiş filtresi**:
+   
    $$[
    T(\theta) =
    \begin{cases}
@@ -203,13 +206,15 @@ $$[
    \end{cases}
    ]$$
 
-2. **EM alan etkisi** (basitleştirilmiş model, kenara yakın parçacıklar daha az katkı verir veya fazı bozulur):
-   $$[\f_\text{EM}(\theta) = 1 - \alpha \cdot \exp\Big[-\beta \big(\cos\theta/(d/2)\big)^2\Big]]$$
+3. **EM alan etkisi** (basitleştirilmiş model, kenara yakın parçacıklar daha az katkı verir veya fazı bozulur):
+   
+   $$[f_\text{EM}(\theta) = 1 - \alpha \cdot \exp\Big[-\beta \big(\cos\theta/(d/2)\big)^2\Big]]$$
 
 * $$(\alpha)$$ : maksimum saptırma katsayısı
 * $$(\beta)$$ : saptırmanın ne kadar keskin olduğunu kontrol eder
 
 3. **Toplam katkı**:
+   
    $$[
    \Psi(X,Y) = \sum_{\theta_i} T(\theta_i) f_\text{EM}(\theta_i) , e^{i (k(X\cos\theta_i + Y\sin\theta_i) + m \theta_i)}
    ]$$
