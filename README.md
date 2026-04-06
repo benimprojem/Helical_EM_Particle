@@ -18,25 +18,25 @@ Chat GPT yorumu:
 
 Parçacığın heliks hareketi (3D uzayda) zaman fonksiyonudur:
 
-[
+$$[
 \vec{r}(t) =
 \begin{pmatrix}
 r \cos(\omega_\text{spin} t + \phi_0) \
 r \sin(\omega_\text{spin} t + \phi_0) \
 v_\text{axial} t
 \end{pmatrix}
-]
+]$$
 
-* (r) : heliks yarıçapı
-* (\omega_\text{spin}) : dönme açısal frekansı (rad/s)
-* (\phi_0) : başlangıç fazı (başlangıç açısı)
-* (v_\text{axial}) : z eksenindeki doğrusal hız
+* $$(r)$$ : heliks yarıçapı
+* $$(\omega_\text{spin})$$ : dönme açısal frekansı (rad/s)
+* $$(\phi_0)$$ : başlangıç fazı (başlangıç açısı)
+* $$(v_\text{axial})$$ : z eksenindeki doğrusal hız
 
 ---
 
 ### 2. **Hız ve Momentum**
 
-[
+$$[
 \vec{v}(t) = \frac{d\vec{r}}{dt} =
 \begin{pmatrix}
 
@@ -44,33 +44,33 @@ v_\text{axial} t
   r \omega_\text{spin} \cos(\omega_\text{spin} t + \phi_0) \
   v_\text{axial}
   \end{pmatrix}
-  ]
+  ]$$
 
-[
+$$[
 \vec{p}(t) = m_e \vec{v}(t)
-]
+]$$
 
-* (m_e) : parçacık (elektron) kütlesi
+* $$(m_e)$$ : parçacık (elektron) kütlesi
 
 ---
 
 ### 3. **Faz Yorumu (Heliks Üzerindeki Konum)**
 
-[
+$$[
 \phi(t) = k v_\text{axial} t + m \omega_\text{spin} t + \phi_0
-]
+]$$
 
-* (k = \frac{2\pi}{\lambda}) dalga sayısı (1/m)
-* (m) topolojik sayı (heliks sarım sayısı, integer)
+* $$(k = \frac{2\pi}{\lambda})$$ dalga sayısı (1/m)
+* $$(m)$$ topolojik sayı (heliks sarım sayısı, integer)
 * Faz, parçacığın **heliks üzerindeki tam konumunu** verir
 
 ---
 
 ### 4. **Geçiş Olasılığı (Yarıktan Geçiş)**
 
-[
+$$[
 P_\text{geçiş}(t) = \cos^2(\phi(t))
-]
+]$$
 
 * Faz ile bağlantılı geçiş olasılığı: heliks fazında olan parçacık yarıktan geçme olasılığını belirler
 
@@ -80,30 +80,30 @@ P_\text{geçiş}(t) = \cos^2(\phi(t))
 
 Düzlem dalga ışık için elektrik ve manyetik alanlar (EM dalgası):
 
-[
+$$[
 \vec{E}(t) = E_0 \big( \hat{x} \cos\theta + \hat{y} \sin\theta \big)
-]
+]$$
 
-[
+$$[
 \vec{B}(t) = \frac{1}{c} \hat{z} \times \vec{E}(t)
-]
+]$$
 
-* (E_0) : elektrik alan genliği
-* (\theta) : polarizasyon açısı
-* (c) : ışık hızı
+* $$(E_0)$$ : elektrik alan genliği
+* $$(\theta)$$ : polarizasyon açısı
+* $$(c)$$ : ışık hızı
 
 ---
 
 ### 6. **Yarıktan Geçen Dalga Fonksiyonu**
 
-Yarıktan geçen dalga fonksiyonu, giriş dalgası (\psi_{\text{in}}), yarık fonksiyonu (T(x,y)) ve faz sapması (\Delta \theta(x,y)) ile:
+Yarıktan geçen dalga fonksiyonu, giriş dalgası $$(\psi_{\text{in}})$$ , yarık fonksiyonu $$(T(x,y))$$ ve faz sapması $$(\Delta \theta(x,y))$$ ile:
 
-[
+$$[
 \psi_{\text{out}}(x,y) = \psi_{\text{in}}(x,y) \cdot T(x,y) \cdot e^{i \Delta \theta(x,y)}
-]
+]$$
 
-* (T(x,y)) : yarığın aktarma fonksiyonu (0-1 arası)
-* (\Delta \theta(x,y)) : yarık kenarlarında oluşan faz kayması (konum çarpıtması)
+* $$(T(x,y))$$ : yarığın aktarma fonksiyonu (0-1 arası)
+* $$(\Delta \theta(x,y))$$ : yarık kenarlarında oluşan faz kayması (konum çarpıtması)
 
 ---
 
@@ -111,16 +111,16 @@ Yarıktan geçen dalga fonksiyonu, giriş dalgası (\psi_{\text{in}}), yarık fo
 
 Kırınım desenini elde etmek için:
 
-[
+$$[
 \Psi(k_x, k_y) = \mathcal{F}[\psi_{\text{out}}(x,y)]
-]
+]$$
 
-[
+$$[
 I(k_x, k_y) = |\Psi(k_x, k_y)|^2
-]
+]$$
 
-* (\mathcal{F}) : iki boyutlu Fourier dönüşümü
-* (I(k_x, k_y)) : ekrandaki ışık/parçacık yoğunluğu
+* $$(\mathcal{F})$$ : iki boyutlu Fourier dönüşümü
+* $$(I(k_x, k_y))$$ : ekrandaki ışık/parçacık yoğunluğu
 
 ---
 
@@ -135,19 +135,19 @@ I(k_x, k_y) = |\Psi(k_x, k_y)|^2
 
 Parçacığın ivmesi:
 
-[
+$$[
 \vec{a} = \frac{\vec{F}}{m}
-]
+]$$
 
 Hız ve pozisyon güncellemesi için:
 
-[
+$$[
 \vec{v}(t+\Delta t) = \vec{v}(t) + \vec{a}(t) \Delta t
-]
+]$$
 
-[
+$$[
 \vec{r}(t+\Delta t) = \vec{r}(t) + \vec{v}(t) \Delta t
-]
+]$$
 
 ---
 
@@ -155,13 +155,71 @@ Hız ve pozisyon güncellemesi için:
 
 Parçacığın yarıktan geçebilmesi için pozisyonu:
 
-[
+$$[
 |x(t)| < \frac{d}{2}
-]
+]$$
 
 * (d) : yarık genişliği
 
 ---
+
+---
+
+### 1️⃣ Fiziksel Temel
+
+* Parçacık **heliks hareketi** yapıyor:
+  $$[
+  \vec{r}(t) = \begin{pmatrix} r \cos(\omega_\text{spin} t) \ r \sin(\omega_\text{spin} t) \ v_\text{axial} t \end{pmatrix}
+  ]$$
+
+* Faz:
+ $$[
+  \phi(t) = k v_\text{axial} t + m \omega_\text{spin} t
+  ]$$
+
+* **Yarıktan geçerken**:
+
+  * Kenarlara yakın olan parçacıklar **EM alanıyla saptırılır** (Lorentz kuvveti veya yarık kenarındaki etki)
+  * Merkezden geçenler **neredeyse düz** gider
+  * Bu bozulma heliks fazını değiştirir → kırınım deseninde merkeze doğru sıfırlama veya “çatal / kasık” form oluşur
+
+* Görselleştirmek için, **yarık fonksiyonuna EM alan etkisini ekleyeceğiz**:
+  $$[
+  T(\theta) \to T(\theta) \cdot f_\text{EM}(\theta)
+  ]$$
+  Burada $$(f_\text{EM}(\theta))$$ parçacığın konumuna göre saptırma katsayısı (kenara yakınsa azalır veya faz kayması verir).
+
+---
+
+### 2️⃣ Matematiksel Modelleme
+
+1. **Yarıktan geçiş filtresi**:
+   $$[
+   T(\theta) =
+   \begin{cases}
+   1, & |\cos\theta| < d/(2r) \
+   0, & \text{diğerleri}
+   \end{cases}
+   ]$$
+
+2. **EM alan etkisi** (basitleştirilmiş model, kenara yakın parçacıklar daha az katkı verir veya fazı bozulur):
+   $$[
+   f_\text{EM}(\theta) = 1 - \alpha \cdot \exp\Big[-\beta \big(\cos\theta/(d/2)\big)^2\Big]
+   ]$$
+
+* $$(\alpha)$$ : maksimum saptırma katsayısı
+* $$(\beta)$$ : saptırmanın ne kadar keskin olduğunu kontrol eder
+
+3. **Toplam katkı**:
+   $$[
+   \Psi(X,Y) = \sum_{\theta_i} T(\theta_i) f_\text{EM}(\theta_i) , e^{i (k(X\cos\theta_i + Y\sin\theta_i) + m \theta_i)}
+   ]$$
+
+* Bu şekilde hem **heliks fazı** hem **yarık geçişi** hem de **EM alan etkisi** tek adımda hesaba katılmış olur.
+
+---
+
+
 
 
 
